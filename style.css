@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: #000000; */
+    background: linear-gradient(to bottom, #000000, #004e41);
+    color: #ffffffbb;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+h1, h2, h3 {
+    color: #ffffff;
+    margin-bottom: 15px;
+    text-shadow: #ffffff64 0px 0px 20px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+a {
+    display: inline-block;
+    background-color: black;
+    color: #4db4a2;
+    padding: 12px 20px;
+    border-radius: 20px;
+}
+
+a:hover {
+    background-color: #4db4a2;
+    box-shadow: #ffffff64 0px 0px 20px;
+    color: #000000;
+    padding: 12px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+/* Header */
+header {
+    background-color: #1a1a1a;
+    border-bottom: 2px solid #4db4a2;
+    text-shadow: #ffffff64 0px 0px 20px;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 14px;
+    color: #4db4a2;
+}
+
+/* Navigation */
+nav {
+    background-color: #222222;
+    border-bottom: 1px solid #4db4a2;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: #ffffff64 0px 0px 20px;
+}
+
+nav a {
+    color: #4db4a2;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+    box-shadow: #ffffff26 0px 0px 30px;
+}
+
+/* sections */
+.section {
+    background-color: #1a1a1a;
+    border: 1px solid #4db4a2;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: #ffffff64 0px 0px 20px;
+    text-shadow: #ffffff64 0px 0px 20px;
+}
+
+.section-white {
+    background-color: #1a1a1a;
+    border: 1px solid #ffffff;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+/* form site ma*/
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #000000;
+    border: 1px solid #4db4a2;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus {
+    border-color: #4db4a371;
+    outline: none;
+}
+
+button, .btn {
+    background-color: #333333;
+    color: #ffffff;
+    border: 1px solid #4db4a2;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-shadow: #ffffff64 0px 0px 20px;
+    box-shadow: #ffffff64 0px 0px 10px;
+}
+
+button:hover, .btn:hover {
+    background-color: #4db4a2;
+    color: #000000;
+}
+
+/* ghesmat add code */
+.code-input {
+    width: 100%;
+    height: 200px;
+    background-color: #000000;
+    border: 1px solid #4db4a2;
+    color: #ffffff;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 14px;
+    padding: 10px;
+    resize: vertical;
+    box-shadow: #ffffff64 0px 0px 10px;
+}
+
+.code-input:focus {
+    border-color: #4db4a371;
+    outline: none;
+    box-shadow: #ffffff64 0px 0px 20px;
+}
+
+/* ghesmat output code */
+.output-box {
+    width: 100%;
+    min-height: 150px;
+    background-color: #0a0a0a;
+    border: 1px solid #4db4a2;
+    color: #ffffff;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 14px;
+    padding: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    box-shadow: #ffffff64 0px 0px 10px;
+}
+
+/* footer site */
+footer {
+    background-color: #1a1a1a;
+    border-top: 2px solid #4db4a2;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 13px;
+    color: #4db4a3a0;
+    margin-top: 30px;
+    text-shadow: #ffffff64 0px 0px 20px;
+    box-shadow: #ffffff64 0px 0px 20px;
+}
+
+/* error / success messages */
+.error {
+    color: #ff6666;
+    border: 1px solid #ff6666;
+    background-color: #330000;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-shadow: #ffffff64 0px 0px 10px;
+}
+
+.success {
+    color: #66ff66;
+    border: 1px solid #66ff66;
+    background-color: #003300;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-shadow: #ffffff64 0px 0px 20px;
+}
+
+/* login / register forms */
+.auth-form {
+    max-width: 400px;
+    margin: 40px auto;
+}
+
+.auth-form h2 {
+    text-align: center;
+}
+
+.auth-link {
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* abote pain site */
+.about-section p {
+    color: #beede5b5
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 95%;
+    }
+
+    header h1 {
+        font-size: 20px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+}
